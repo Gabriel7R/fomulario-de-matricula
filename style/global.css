@@ -1,3 +1,9 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 :root{
   --brand-light:#F67841;
   --brand-mid:#F3541C;
@@ -26,4 +32,8 @@
   --h2: 120%/24px var(--font-family);
   --h3: 120%/20px var(--font-family);
   --h4: 120%/16px var(--font-family);
+}
+
+body{
+  overflow: hidden;
 }
